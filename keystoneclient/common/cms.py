@@ -406,7 +406,6 @@ def cms_hash_token(token_id, mode='md5'):
     else:
         return token_id
 
-#Sazzad Adds
 
 def cms_hash_data(text, mode='md5'):
     """Hash tokens.

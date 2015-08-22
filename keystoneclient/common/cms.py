@@ -418,7 +418,7 @@ def cms_hash_data(text, mode='md5'):
             text = text.encode('utf-8')
     hasher.update(text)
     return hasher.hexdigest()
-
+# Sazzad Adds
 def cms_plaintext_token(text):
     # Check if it is plaintext token
     return text[:3] == PLAIN_TEXT_PREFIX
